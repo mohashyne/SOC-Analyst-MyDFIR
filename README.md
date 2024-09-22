@@ -5,7 +5,7 @@
 This repository outlines the architecture for building and deploying servers tailored to a Security Operations Center (SOC) analyst's needs...
 
 
-This repository outlines the architecture for building and deploying servers tailored to a **Security Operations Center (SOC) analyst's** needs using **Vulture cloud provider**. The goal of this challenge is to design, implement, and connect six servers to create a secure and monitored environment for analyzing threats, tracking logs, and managing security operations.
+This repository outlines the architecture for building and deploying servers tailored to a **Security Operations Center (SOC) analyst's** needs using **VULTR cloud provider**. The goal of this challenge is to design, implement, and connect six servers to create a secure and monitored environment for analyzing threats, tracking logs, and managing security operations.
 
 ## 🛡️ Project Overview
 
@@ -22,7 +22,7 @@ The architecture includes six critical servers for SOC operations:
 
 ## 🌩️ Cloud Platform & Tools
 
-- **Cloud Provider**: Vulture
+- **Cloud Provider**: VULTR
 - **Virtual Private Cloud (VPC)**: Ensures all servers are within a secure, private network.
 - **Subnet**: 172.31.0.0/24 subnet for internal server communication.
 - **Internet Gateway**: Allows internet access for monitoring and security operations.
@@ -53,7 +53,7 @@ The servers are placed within a **VPC** to enable secure internal communication 
     Follow the installation steps provided for each server in the `/docs` folder.
 
 3. **Spin Up Servers**:
-    Use the provided configuration files to launch six servers on **Vulture**.
+    Use the provided configuration files to launch six servers on **VULTR**.
 
 4. **Set Up VPC**:
     Configure the VPC to allow secure internal communication between servers.
