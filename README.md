@@ -1,6 +1,6 @@
 # 🌐 SOC Analyst Design Architecture
 
-<img width="400px" src="images/MSA_DFIR-Diagram.jpg" />
+<img height=50% width=400px src="images/MSA_DFIR-Diagram.jpg" />
 
 This repository outlines the architecture for building and deploying servers tailored to a Security Operations Center (SOC) analyst's needs...
 
