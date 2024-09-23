@@ -5,9 +5,9 @@
 This repository outlines the architecture for building and deploying servers tailored to a Security Operations Center (SOC) analyst's needs...
 
 
-This repository outlines the architecture for building and deploying servers tailored to a **Security Operations Center (SOC) analyst's** needs using **VULTR cloud provider**. The goal of this challenge is to design, implement, and connect six servers to create a secure and monitored environment for analyzing threats, tracking logs, and managing security operations.
+This brranch outlines the architecture for building and deploying servers tailored to a **Security Operations Center (SOC) analyst's** needs using **VULTR cloud provider**. The goal of this challenge is to design, implement, and connect six servers to create a secure and monitored environment for analyzing threats, tracking logs, and managing security operations.
 
-## 🛡️ Project Overview
+## 🛡️ Overview
 
 The architecture includes six critical servers for SOC operations:
 
@@ -21,7 +21,6 @@ The architecture includes six critical servers for SOC operations:
 ---
 
 ## 🌩️ Cloud Platform & Tools
-
 - **Cloud Provider**: VULTR
 - **Virtual Private Cloud (VPC)**: Ensures all servers are within a secure, private network.
 - **Subnet**: 172.31.0.0/24 subnet for internal server communication.
@@ -29,45 +28,23 @@ The architecture includes six critical servers for SOC operations:
 
 ---
 
-## 📊 Network Design
 
+
+## 📊 Network Design
 The servers are placed within a **VPC** to enable secure internal communication while staying isolated from the public internet. Analysts access the system via **Elastic & Kibana** for log monitoring and analysis, and other essential tools include OS Ticket for incident tracking and Fleet for agent management. This architecture facilitates effective **threat detection**, **log management**, and **incident response** in a SOC environment.
 
-### **SOC Analyst Use Case:**
 
+
+### **SOC Analyst Use Case:**
 - **Elastic & Kibana**: Logs from Windows and Ubuntu servers are forwarded to Elastic & Kibana for centralized monitoring.
 - **OS Ticket**: Alerts are generated for detected incidents, which are then tracked in OS Ticket.
 - **Fleet Server**: Elastic agents on the Windows and Ubuntu servers report to the Fleet Server for centralized monitoring.
 - **C2 Server**: Simulates real-time attacks for security training and response testing.
 
----
 
-## ⚙️ Setup Instructions
 
-1. **Clone this repository**:
-    ```bash
-    git clone https://github.com/your-username/SOC-server-architecture-challenge.git
-    ```
-
-2. **Install Dependencies**:
-    Follow the installation steps provided for each server in the `/docs` folder.
-
-3. **Spin Up Servers**:
-    Use the provided configuration files to launch six servers on **VULTR**.
-
-4. **Set Up VPC**:
-    Configure the VPC to allow secure internal communication between servers.
-
-5. **Configure Kibana**:
-    Set up log forwarding from Windows and Ubuntu servers to **Kibana**.
-
-6. **Test Alerts**:
-    Ensure OS Ticket is receiving and managing security alerts properly.
-
----
 
 ## 🖼️ Architecture Diagram
-
 The architecture diagram in the `/diagrams` folder provides a clear overview of how the servers are interconnected and how the SOC analyst interacts with the system.
 
 ---
