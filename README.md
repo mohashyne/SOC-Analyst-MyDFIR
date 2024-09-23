@@ -2,10 +2,8 @@
 
 <img height=65% width=700px src="images/MSA_DFIR-Diagram.jpg" />
 
-This repository outlines the architecture for building and deploying servers tailored to a Security Operations Center (SOC) analyst's needs...
 
-
-This brranch outlines the architecture for building and deploying servers tailored to a **Security Operations Center (SOC) analyst's** needs using **VULTR cloud provider**. The goal of this challenge is to design, implement, and connect six servers to create a secure and monitored environment for analyzing threats, tracking logs, and managing security operations.
+This branch outlines the architecture for building and deploying servers tailored to a **Security Operations Center (SOC) analyst's** needs using **VULTR cloud provider**. The goal of this challenge is to design, implement, and connect six servers to create a secure and monitored environment for analyzing threats, tracking logs, and managing security operations.
 
 ## 🛡️ Overview
 
